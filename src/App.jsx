@@ -1,18 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Header from './components/Header'
+import React from 'react'
+import './index.css'
+import ReactDOM from 'react-dom/client'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
-//index app
+/*
+IMPORTS ALL PAGES
+*/
+import Home from './pages/Home.jsx'
+import Projects from './pages/Projects.jsx'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div className="bg-stone-950">
-    <Header />
-    </div>
-  )
-}
-
-export default App
+     <>
+        <Routes>
+           <Route path="/" element={<Home />} />
+           <Route path="/projects" element={<Projects />} />
+        </Routes>
+     </>
+  );
+ };
+ 
+ export default App;
