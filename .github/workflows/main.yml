@@ -14,8 +14,8 @@ jobs:
       - name: Install all dependancies
         run: npm install
 
-      -name: Pre Build
-       run: rm -rf node_modules/
+      - name: Pre Build
+        run: rm -rf node_modules/
 
       - name: Build
         run: npm run build
