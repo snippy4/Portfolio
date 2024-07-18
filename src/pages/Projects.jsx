@@ -8,7 +8,7 @@ function Projects() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="bg-stone-950">
+    <div className="bg-black">
     <ProjectHeader />
     </div>
   )
