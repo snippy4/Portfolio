@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from '../components/Header'
 import ProjectHeader from '../components/ProjectHeader'
+import ProjectDisplay from '../components/ProjectDisplay'
 
 //index Projects
 
@@ -10,6 +11,7 @@ function Projects() {
   return (
     <div className="bg-black">
     <ProjectHeader />
+    <ProjectDisplay />
     </div>
   )
 }

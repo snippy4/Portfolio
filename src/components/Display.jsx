@@ -32,7 +32,7 @@ function Display(){
                     <h className="text-black font-semibold text-4xl p-2">Computer Science Student & Hobbyist Developer</h>
                 </div>
 
-                <div className="bg-zinc-800 p-3 rounded-2xl col-span-1 row-span-2 flex flex-col relative row-span-3">
+                <div className="bg-zinc-800 p-3 rounded-2xl col-span-1 row-span-2 flex flex-col relative row-span-3 animate-smooth_center">
                     <h className="text-white font-semibold text-4xl p-2 flex flex-col">Thomas Parsons</h>
                     <div className="grid grid-cols-3 grid-rows-auto max-h-full">
                         <a className="p-2" href="https://www.linkedin.com/in/thomas-parsons-6b6964225/">

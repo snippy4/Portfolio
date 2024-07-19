@@ -76,6 +76,15 @@ export default {
             transform: "translate(0px, 0px)"
           },
         },
+        smooth_center:{
+          "from": {
+            opacity: "0%",
+            scale: "50%"
+          },
+          "to": {
+            opacity: "100%"
+          },
+        },
         
       },
       animation: {
@@ -85,6 +94,7 @@ export default {
         smooth_bottom: "smooth_bottom 0.75s",
         smooth_left2: "smooth_left2 1.25s",
         smooth_right2: "smooth_right2 1.25s",
+        smooth_center: "smooth_center 0.4s"
       }
     },
   },
