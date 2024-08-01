@@ -16,7 +16,7 @@ import javascript from "/assets/javascript_.png"
 function Display(){
     return(
         <div className="p-10 overflow-hidden 2xl:overflow-visible flex flex-auto justify-center">
-            <div className='grid grid-cols-1 grid-rows-6 lg:grid-rows-7 gap-5 lg:max-h-2xl p-5 lg:max-w-7xl lg:max-h-screen lg:grid-cols-3 grid-rows-auto'>
+            <div className='grid grid-cols-1 lg:grid-rows-7 lg:gap-5 gap-2 p-5 lg:max-w-7xl lg:max-h-screen lg:grid-cols-3 grid-rows-auto'>
 
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 flex flex-col relative lg:row-span-2 animate-smooth_left">
                     <h className="text-white font-semibold text-4xl p-2">My Introduction</h>
@@ -32,7 +32,7 @@ function Display(){
                     <h className="text-black font-semibold text-4xl p-2">Computer Science Student & Hobbyist Developer</h>
                 </div>
 
-                <div className="bg-zinc-800 p-3 rounded-2xl col-span-1 flex flex-col relative lg:row-span-3 animate-smooth_center">
+                <div className="bg-zinc-800 p-3 rounded-2xl col-span-1 flex flex-col relative row-span-1 lg:row-span-3 animate-smooth_center">
                     <h className="text-white font-semibold text-4xl p-2 flex flex-col">Thomas Parsons</h>
                     <div className="grid grid-cols-3 grid-rows-auto max-h-full">
                         <a className="p-2" href="https://www.linkedin.com/in/thomas-parsons-6b6964225/">
@@ -64,7 +64,7 @@ function Display(){
 
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 lg:row-span-2 flex flex-col relative animate-smooth_right">
                     <h className="text-white font-semibold text-4xl p-2">Technologies</h>
-                    <div className="grid grid-cols-6 grid-rows-auto max-h-full">
+                    <div className="grid grid-cols-3 lg:grid-cols-6 grid-rows-auto max-h-full">
 
                         <div className="group/python">
                             <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/python:visible border rounded-xl bg-white transition scale-0 group-hover/python:scale-100">Python</h>
