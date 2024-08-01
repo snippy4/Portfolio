@@ -19,10 +19,10 @@ function ProjectDisplay(){
                         This is my portfolio website, the one you are viewing right now. I worked on this project to help me show off my work and what I am able to produce. The final product is a three page website showing who I am and what I have worked on.
                     </p>
                     <div className="grid grid-cols-6 grid-rows-auto max-h-full p-2">
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition">React</h>
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition">HTML</h>
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition">CSS</h>
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition">Javascript</h>
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">React</h>
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">HTML</h>
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">CSS</h>
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">Javascript</h>
                     </div>
                     <div className="grid grid-cols-2 grid-rows-auto max-h-full p-1">
                         <a href="https://github.com/snippy4/Portfolio">
@@ -45,9 +45,9 @@ function ProjectDisplay(){
                         This is a discord bot that I created for a private server with my friends. This bot will use RiotAPI to track each of my friends rank on league of legends, as well as a few interesting stats about their games, and post these in the form of an ordered leaderboard.
                     </p>
                     <div className="grid grid-cols-6 grid-rows-auto max-h-full p-2">
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition">Python</h>
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition">RiotAPI</h>
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition">DiscordAPI</h>
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">Python</h>
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">RiotAPI</h>
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">DiscordAPI</h>
                     </div>
                     <div className="grid grid-cols-1 grid-rows-auto p-1">
                         <a href="https://github.com/snippy4/Bard">

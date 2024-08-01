@@ -67,27 +67,27 @@ function Display(){
                     <div className="grid grid-cols-6 grid-rows-auto max-h-full">
 
                         <div className="group/python">
-                            <h className="text-black font-semibold flex justify-center invisible group-hover/python:visible border rounded-xl bg-white transition scale-75 group-hover/python:scale-100">Python</h>
+                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/python:visible border rounded-xl bg-white transition scale-0 group-hover/python:scale-100">Python</h>
                             <img className="p-2 group-hover/python:scale-110 group-hover/python:brightness-110 transition" src={python}/>
                         </div> 
                         <div className="group/java">
-                            <h className="text-black font-semibold flex justify-center invisible group-hover/java:visible border rounded-xl bg-white transition scale-75 group-hover/java:scale-100">Java</h>
+                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/java:visible border rounded-xl bg-white transition scale-0 group-hover/java:scale-100">Java</h>
                             <img className="p-2 group-hover/java:scale-110 group-hover/java:brightness-110 transition" src={java}/>
                         </div>       
                         <div className="group/html">
-                            <h className="text-black font-semibold flex justify-center invisible group-hover/html:visible border rounded-xl bg-white transition scale-75 group-hover/html:scale-100">HTML</h>
+                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/html:visible border rounded-xl bg-white transition scale-0 group-hover/html:scale-100">HTML</h>
                             <img className="p-2 group-hover/html:scale-110 group-hover/html:brightness-110 transition" src={html}/>
                         </div>
                         <div className="group/css">
-                            <h className="text-black font-semibold flex justify-center invisible group-hover/css:visible border rounded-xl bg-white transition scale-75 group-hover/css:scale-100">CSS</h>
+                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/css:visible border rounded-xl bg-white transition scale-0 group-hover/css:scale-100">CSS</h>
                             <img className="p-2 group-hover/css:scale-110 group-hover/css:brightness-110 transition" src={css}/>
                         </div>
                         <div className="group/javascript">
-                            <h className="text-black font-semibold flex justify-center invisible group-hover/javascript:visible border rounded-xl bg-white transition scale-75 group-hover/javascript:scale-100">Javascript</h>
+                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/javascript:visible border rounded-xl bg-white transition scale-0 group-hover/javascript:scale-100">Javascript</h>
                             <img className="p-2 group-hover/javascript:scale-110 group-hover/javascript:brightness-110 transition" src={javascript}/>
                         </div>    
                         <div className="group/react">
-                            <h className="text-black font-semibold flex justify-center invisible group-hover/react:visible border rounded-xl bg-white transition scale-0 group-hover/react:scale-100">React</h>
+                            <h className="text-black text-xs lg:text-lg font-semibold flex justify-center invisible group-hover/react:visible border rounded-xl bg-white transition scale-0 group-hover/react:scale-100">React</h>
                             <img className="p-2 group-hover/react:scale-110 group-hover/react:brightness-110 transition" src={react}/>
                         </div>    
 
