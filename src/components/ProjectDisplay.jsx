@@ -17,7 +17,7 @@ function ProjectDisplay(){
                 <div className="bg-zinc-800 p-3 rounded-2xl flex flex-col relative animate-smooth_top border border-zinc-700">
                     <h className="text-white font-semibold text-4xl p-2">Portfolio site</h>
                     <p className="text-slate-400 p-2 text-xl">
-                        This is my portfolio website, the one you are viewing right now. I worked on this project to help me show off my work and what I am able to produce. The final product is a three page website showing who I am and what I have worked on.
+                        This is my portfolio website, the one you are viewing right now. I worked on this project to help me show off my work and what I am able to produce. It contains some interesting information about me and about what I have worked on.
                     </p>
                     <div className="grid grid-cols-4 lg:grid-cols-6 grid-rows-auto max-h-full p-2">
                         <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">React</h>
