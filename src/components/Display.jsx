@@ -11,6 +11,7 @@ import react from "/assets/react_.png"
 import html from "/assets/html_.png"
 import css from "/assets/css_.png"
 import javascript from "/assets/javascript_.png"
+import c from "/assets/c-program-icon.png"
 
 
 function Display(){
@@ -21,7 +22,8 @@ function Display(){
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 flex flex-col relative lg:row-span-2 animate-smooth_left">
                     <h className="text-white font-semibold text-4xl p-2">My Introduction</h>
                     <p className="text-slate-400 p-2 text-xl">
-                        Hi! I'm Thomas, a computer science student and developer. Welcome to my portfolio website where you can find a summary of what I do and what I have worked on. I first started to learn programming when I was 16 and have been hooked on computer sceince since. Some of my other interests include: maths, trading card games, and video games.
+                        Hi! I'm Thomas, a computer science student and developer. Welcome to my portfolio website where you can find a summary of what I do and what I have worked on. 
+                        I first started to learn programming when I was 16 and have been hooked on computer sceince since. Some of my other interests include: maths, trading card games, and video games.
                     </p>
                 </div>
                 <div className="lg:row-span-4 row-span-2 animate-smooth_top">
@@ -82,9 +84,9 @@ function Display(){
                             <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/css:visible border rounded-xl bg-white transition scale-0 group-hover/css:scale-100">CSS</h>
                             <img className="p-2 group-hover/css:scale-110 group-hover/css:brightness-110 transition" src={css}/>
                         </div>
-                        <div className="group/javascript">
-                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/javascript:visible border rounded-xl bg-white transition scale-0 group-hover/javascript:scale-100">Javascript</h>
-                            <img className="p-2 group-hover/javascript:scale-110 group-hover/javascript:brightness-110 transition" src={javascript}/>
+                        <div className="group/c">
+                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/c:visible border rounded-xl bg-white transition scale-0 group-hover/c:scale-100">c</h>
+                            <img className="p-2 group-hover/c:scale-110 group-hover/c:brightness-110 transition" src={c}/>
                         </div>    
                         <div className="group/react">
                             <h className="text-black text-xs lg:text-lg font-semibold flex justify-center invisible group-hover/react:visible border rounded-xl bg-white transition scale-0 group-hover/react:scale-100">React</h>
