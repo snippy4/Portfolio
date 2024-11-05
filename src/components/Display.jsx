@@ -23,7 +23,8 @@ function Display(){
                     <h className="text-white font-semibold text-4xl p-2">My Introduction</h>
                     <p className="text-slate-400 p-2 text-xl">
                         Hi! I'm Thomas, a computer science student and developer. Welcome to my portfolio website where you can find a summary of what I do and what I have worked on. 
-                        I first started to learn programming when I was 16 and have been hooked on computer sceince since. Some of my other interests include: maths, trading card games, and video games.
+                        I first started to learn programming in high school and have been hooked on computer sceince since. My main interests are in algorithms, HPC, and I enjoy working on games in my free time. 
+                        I also enjoy playing TCGs as a hobby!
                     </p>
                 </div>
                 <div className="lg:row-span-4 row-span-2 animate-smooth_top">
@@ -31,7 +32,7 @@ function Display(){
                 </div>
 
                 <div className="bg-violet-300 p-3 rounded-2xl col-span-2 lg:col-span-1 flex flex-col relative lg:row-span-2 animate-smooth_left2">
-                    <h className="text-black font-semibold text-4xl p-2">Computer Science Student & Hobbyist Developer</h>
+                    <h className="text-black font-semibold text-6xl p-2">Computer Science Student</h>
                 </div>
 
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-1 flex flex-col relative row-span-1 lg:row-span-3 animate-smooth_center">
@@ -54,9 +55,10 @@ function Display(){
                     <div>
                         <h1 className="text-white font-semibold text-4xl p-2 flex flex-col">Education</h1>
                         <h className="text-white font-semibold text-xl p-2 flex flex-col">University</h>
-                        <p className="text-slate-400 text-l p-2 flex flex-col">I am currently studying a MEng in Computer Science at University of Liverpool. I am on my fourth year of study and set to graduate in 2025</p>
+                        <p className="text-slate-400 text-l p-2 flex flex-col">I am currently studying a MEng in Computer Science at University of Liverpool. I am on my fourth year of study and set to graduate in 
+                            May 2025 with a 2:1 or higher.</p>
                         <h className="text-white font-semibold text-xl p-2 flex flex-col">A levels</h>
-                        <p className="text-slate-400 text-l p-2 flex flex-col">Maths - A* <br/> Further Maths - A <br/> Computer Science - A <br/> Economics - B <br/> I studied my A levels at Calday Grange Grammar School from 2019-2021</p>
+                        <p className="text-slate-400 text-l p-2 flex flex-col">Maths - A* <br/> Further Maths - A <br/> Computer Science - A <br/> Economics - B <br/> I studied my A levels from 2019-2021</p>
                     </div>
                 </div>
 
