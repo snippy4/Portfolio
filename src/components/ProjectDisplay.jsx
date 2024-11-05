@@ -34,7 +34,7 @@ function ProjectDisplay(){
                     </div>
                 </div>
                 
-                <div className="bg-zinc-800 p-3 rounded-2xl flex flex-col relative animate-smooth_left2 border border-zinc-700 col-span-2">
+                <div className="bg-zinc-800 p-3 rounded-2xl flex flex-col relative animate-smooth_right2 border border-zinc-700 col-span-2">
                     <h className="text-white font-semibold text-4xl p-2">Parallel K-Nearest Neighbours</h>
                     <p className="text-slate-400 p-2 text-xl">
                         An implementation of the K-Nearest Neighbours algorithm designed to scale efficently being ran on multiple cores. Currently a private project in order to prevent 
