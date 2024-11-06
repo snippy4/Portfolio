@@ -20,7 +20,7 @@ function ProjectDisplay(){
                     <h className="text-white font-semibold text-4xl p-2">Wizard Room</h>
                     <p className="text-slate-400 p-2 text-xl">
                         This project was originally started with the intention of making a full game where you play as a wizard in a 2d side scroller. Due to time constraints it has been left as 
-                        a proof of concept engine which could easily be expanded upon. In this version you can still explore the wizard's room and interract with mysterious objects whilst time passes.
+                        a proof of concept engine which could easily be expanded upon. In this version you can still explore the wizard's room and interact with mysterious objects whilst time passes.
                     </p>
                     <div className="grid grid-cols-3 lg:grid-cols-6 grid-rows-auto max-h-full p-2">
                         <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">Python</h>
