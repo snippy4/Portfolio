@@ -41,8 +41,8 @@ function ProjectDisplay(){
                 <div className="bg-zinc-800 p-3 rounded-2xl flex flex-col relative animate-smooth_right2 border border-zinc-700 col-span-1">
                     <h className="text-white font-semibold text-4xl p-2">Parallel K-Nearest Neighbours</h>
                     <p className="text-slate-400 p-2 text-xl">
-                        An implementation of the K-Nearest Neighbours algorithm designed to scale efficently being ran on multiple cores. Currently a private project in order to prevent 
-                        plagiarism on the assignment. This program was tested on Barkla, the University of Liverpool's high performance computing cluster. This implementation went from running in 70
+                        An implementation of the K-Nearest Neighbours algorithm designed to scale efficently being ran on multiple cores. Currently a private repo in order to prevent 
+                        plagiarism on the assignment, but can provide further details upon request. This program was tested on Barkla, the University of Liverpool's high performance computing cluster. This implementation went from running in 70
                         seconds sequantially to under 5 seconds in parallel on 40 cores.
                     </p>
                     <div className="grid grid-cols-3 lg:grid-cols-6 grid-rows-auto max-h-full p-2">
