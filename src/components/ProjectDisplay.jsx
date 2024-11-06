@@ -10,11 +10,11 @@ import Wizard from "/assets/wizard.png"
 function ProjectDisplay(){
     return(
         <div className="snap-y flex flex-auto items-center justify-center p-5">
-            <div className='grid grid-cols-1 md:grid-rows-auto gap-2 lg:gap-10 md:max-h-2xl p-5 md:max-w-7xl md:max-h-screen lg:grid-cols-2 grid-rows-auto'>
-                
+           <div class="grid grid-cols-1 gap-4 p-5 md:grid-rows-auto md:max-w-7xl md:max-h-screen lg:grid-cols-2 lg:gap-10">
+
             <div className="animate-smooth_top">
-                    <img className="rounded-xl border border-zinc-700 size-full object-cover" src={Wizard}></img>
-                </div>
+                <img className="w-full h-auto rounded-xl border border-zinc-700 object-cover" src={Wizard} alt="Wizard Image" />
+            </div>
 
                 <div className="bg-zinc-800 p-3 rounded-2xl flex flex-col relative animate-smooth_left2 border border-zinc-700">
                     <h className="text-white font-semibold text-4xl p-2">Wizard Room</h>
@@ -57,7 +57,7 @@ function ProjectDisplay(){
                 </div> 
 
                 <div className="animate-smooth_left">
-                    <img className="rounded-xl border border-zinc-700 size-full object-cover" src={portfolio_site}></img>
+                <img className="w-full h-auto rounded-xl border border-zinc-700 object-cover" src={portfolio_site}/>
                 </div>
 
                 <div className="bg-zinc-800 p-3 rounded-2xl flex flex-col relative animate-smooth_top border border-zinc-700">
@@ -84,7 +84,7 @@ function ProjectDisplay(){
                     
 
                 <div className="animate-smooth_top">
-                    <img className="rounded-xl border border-zinc-700 size-full object-fill max-h-60" src={Bard}></img>
+                <img className="w-full h-auto rounded-xl border border-zinc-700 object-cover" src={Bard} />
                 </div>
 
                 <div className="bg-zinc-800 p-3 rounded-2xl flex flex-col relative animate-smooth_left2 border border-zinc-700">
