@@ -17,7 +17,7 @@ import c from "/assets/c-program-icon.png"
 function Display(){
     return(
         <div className="p-10 overflow-hidden 2xl:overflow-visible flex flex-auto justify-center">
-            <div className='grid grid-cols-1 lg:grid-rows-7 lg:gap-5 gap-2 p-5 lg:max-w-7xl lg:max-h-screen lg:grid-cols-3 grid-rows-auto'>
+            <div className='grid grid-cols-1 lg:grid-rows-7 lg:gap-5 gap-2 p-5 lg:max-w-7xl lg:grid-cols-3 grid-rows-auto'>
 
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 flex flex-col relative lg:row-span-2 animate-smooth_left">
                     <h className="text-white font-semibold text-4xl p-2">My Introduction</h>
