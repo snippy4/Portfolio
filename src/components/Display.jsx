@@ -51,7 +51,7 @@ function Display(){
                     
                 </div>
 
-                <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 lg:col-span-1 flex flex-col relative lg:row-span-3 max-h-full animate-smooth_bottom">
+                <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 lg:col-span-1 flex flex-col relative lg:row-span-3 animate-smooth_bottom">
                     <div>
                         <h1 className="text-white font-semibold text-4xl p-2 flex flex-col">Education</h1>
                         <h className="text-white font-semibold text-xl p-2 flex flex-col">University</h>
