@@ -18,7 +18,7 @@ import Cpp from "/assets/cpp.png"
 function Display(){
     return(
         <div className="p-10 overflow-hidden 2xl:overflow-visible flex flex-auto justify-center">
-            <div className='grid grid-cols-1 lg:grid-rows-7 lg:gap-5 gap-2 p-5 lg:max-w-7xl lg:max-h-screen lg:grid-cols-3 grid-rows-auto'>
+            <div className='grid grid-cols-1 lg:grid-rows-7 lg:gap-5 gap-2 p-5 lg:max-w-7xl lg:grid-cols-3 grid-rows-auto'>
 
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 flex flex-col relative lg:row-span-2 animate-smooth_left">
                     <h className="text-white font-semibold text-4xl p-2">My Introduction</h>
@@ -52,7 +52,7 @@ function Display(){
                     
                 </div>
 
-                <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 lg:col-span-1 flex flex-col relative lg:row-span-3 max-h-full animate-smooth_bottom">
+                <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 lg:col-span-1 flex flex-col relative lg:row-span-3 animate-smooth_bottom">
                     <div>
                         <h1 className="text-white font-semibold text-4xl p-2 flex flex-col">Education</h1>
                         <h className="text-white font-semibold text-xl p-2 flex flex-col">University</h>
