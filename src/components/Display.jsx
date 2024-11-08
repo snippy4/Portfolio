@@ -12,6 +12,7 @@ import html from "/assets/html_.png"
 import css from "/assets/css_.png"
 import javascript from "/assets/javascript_.png"
 import c from "/assets/c-program-icon.png"
+import Cpp from "/assets/cpp.png"
 
 
 function Display(){
@@ -82,9 +83,9 @@ function Display(){
                             <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/html:visible border rounded-xl bg-white transition scale-0 group-hover/html:scale-100">HTML</h>
                             <img className="p-2 group-hover/html:scale-110 group-hover/html:brightness-110 transition" src={html}/>
                         </div>
-                        <div className="group/css">
-                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/css:visible border rounded-xl bg-white transition scale-0 group-hover/css:scale-100">CSS</h>
-                            <img className="p-2 group-hover/css:scale-110 group-hover/css:brightness-110 transition" src={css}/>
+                        <div className="group/Cpp">
+                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/Cpp:visible border rounded-xl bg-white transition scale-0 group-hover/Cpp:scale-100">Cpp</h>
+                            <img className="p-2 group-hover/Cpp:scale-110 group-hover/Cpp:brightness-110 transition" src={Cpp}/>
                         </div>
                         <div className="group/c">
                             <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/c:visible border rounded-xl bg-white transition scale-0 group-hover/c:scale-100">c</h>
