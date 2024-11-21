@@ -59,7 +59,7 @@ function Display(){
                         <p className="text-slate-400 text-l p-2 flex flex-col">I am currently studying a MEng in Computer Science at University of Liverpool. I am on my fourth year of study and set to graduate in 
                             May 2025 with a 2:1 or higher.</p>
                         <h className="text-white font-semibold text-xl p-2 flex flex-col">A levels</h>
-                        <p className="text-slate-400 text-l p-2 flex flex-col">Maths - A* <br/> Further Maths - A <br/> Computer Science - A <br/> Economics - B <br/> I studied my A levels from 2019-2021</p>
+                        <p className="text-slate-400 text-l p-2 flex flex-col">Maths - A* <br/> Further Maths - A <br/> Computer Science - A <br/> Economics - B <br/></p>
                     </div>
                 </div>
 
@@ -84,7 +84,7 @@ function Display(){
                             <img className="p-2 group-hover/html:scale-110 group-hover/html:brightness-110 transition" src={html}/>
                         </div>
                         <div className="group/Cpp">
-                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/Cpp:visible border rounded-xl bg-white transition scale-0 group-hover/Cpp:scale-100">Cpp</h>
+                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/Cpp:visible border rounded-xl bg-white transition scale-0 group-hover/Cpp:scale-100">C++</h>
                             <img className="p-2 group-hover/Cpp:scale-110 group-hover/Cpp:brightness-110 transition" src={Cpp}/>
                         </div>
                         <div className="group/c">
