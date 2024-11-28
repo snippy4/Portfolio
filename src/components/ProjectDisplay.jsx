@@ -7,6 +7,7 @@ import Bard from "/assets/Bard.png"
 import minigames from "/assets/minigames.png"
 import Wizard from "/assets/wizard.png"
 import Knn from "/assets/KNN.png"
+import utils from "/assets/utils.png"
 
 function ProjectDisplay(){
     return(
@@ -60,6 +61,31 @@ function ProjectDisplay(){
                     </div>
                 </div> 
 
+        
+                <div className="animate-smooth_top">
+                <img className="w-full h-auto rounded-xl border border-zinc-700 object-cover" src={utils} />
+                </div>
+
+                <div className="bg-zinc-800 p-3 rounded-2xl flex flex-col relative animate-smooth_left2 border border-zinc-700">
+                    <h className="text-white font-semibold text-4xl p-2">CLI Utils in Go</h>
+                    <p className="text-slate-400 p-2 text-xl">
+                        A set of utility commands and scripts designed to be used in the command line. Written for both Windows and Linux machines, this project achieves a mix of both porting
+                        existing Unix commands over to windows command line such as ls, mv, cp, head, diff, and introducing commands that I have wanted to exist but didnt such as jmp - a tool
+                        for saving and instantly jumping to different directories that you visit frequently, saving the time of navigating between them in your terminal, and diffc -  diff but 
+                        it outputs the accurate number of lines that differ instead.
+                    </p>
+                    <div className="grid grid-cols-3 lg:grid-cols-6 grid-rows-auto max-h-full p-2">
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">Go</h>
+                    </div>
+                    <div className="grid grid-cols-1 grid-rows-auto p-1">
+                        <a href="https://github.com/snippy4/Bard">
+                            <img className="rounded-full hover:brightness-150 hover:drop-shadow-xl hover:scale-90 transition scale-75 max-h-60" src={github}></img>
+                        </a>
+                        
+                    </div>
+                </div>
+
+
                 <div className="animate-smooth_left">
                 <img className="w-full h-auto rounded-xl border border-zinc-700 object-cover" src={portfolio_site}/>
                 </div>
@@ -87,27 +113,7 @@ function ProjectDisplay(){
                 </div>
                     
 
-                <div className="animate-smooth_top">
-                <img className="w-full h-auto rounded-xl border border-zinc-700 object-cover" src={Bard} />
-                </div>
-
-                <div className="bg-zinc-800 p-3 rounded-2xl flex flex-col relative animate-smooth_left2 border border-zinc-700">
-                    <h className="text-white font-semibold text-4xl p-2">Bard bot</h>
-                    <p className="text-slate-400 p-2 text-xl">
-                        This is a discord bot that I created for a private server with my friends. This bot will use RiotAPI to track each of my friends rank on league of legends, as well as a few interesting stats about their games, and post these in the form of an ordered leaderboard.
-                    </p>
-                    <div className="grid grid-cols-3 lg:grid-cols-6 grid-rows-auto max-h-full p-2">
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">Python</h>
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">RiotAPI</h>
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">DiscordAPI</h>
-                    </div>
-                    <div className="grid grid-cols-1 grid-rows-auto p-1">
-                        <a href="https://github.com/snippy4/Bard">
-                            <img className="rounded-full hover:brightness-150 hover:drop-shadow-xl hover:scale-90 transition scale-75 max-h-60" src={github}></img>
-                        </a>
-                        
-                    </div>
-                </div>
+             
 
                               
 

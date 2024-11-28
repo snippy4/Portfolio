@@ -13,6 +13,7 @@ import css from "/assets/css_.png"
 import javascript from "/assets/javascript_.png"
 import c from "/assets/c-program-icon.png"
 import Cpp from "/assets/cpp.png"
+import Go from "/assets/go.png"
 
 
 function Display(){
@@ -79,9 +80,9 @@ function Display(){
                             <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/java:visible border rounded-xl bg-white transition scale-0 group-hover/java:scale-100">Java</h>
                             <img className="p-2 group-hover/java:scale-110 group-hover/java:brightness-110 transition" src={java}/>
                         </div>       
-                        <div className="group/html">
-                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/html:visible border rounded-xl bg-white transition scale-0 group-hover/html:scale-100">HTML</h>
-                            <img className="p-2 group-hover/html:scale-110 group-hover/html:brightness-110 transition" src={html}/>
+                        <div className="group/Go">
+                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/Go:visible border rounded-xl bg-white transition scale-0 group-hover/Go:scale-100">Go</h>
+                            <img className="p-2 scale-110 group-hover/Go:scale-125 group-hover/Go:brightness-110 transition" src={Go}/>
                         </div>
                         <div className="group/Cpp">
                             <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/Cpp:visible border rounded-xl bg-white transition scale-0 group-hover/Cpp:scale-100">C++</h>
