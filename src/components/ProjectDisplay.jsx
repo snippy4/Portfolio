@@ -8,11 +8,39 @@ import minigames from "/assets/minigames.png"
 import Wizard from "/assets/wizard.png"
 import Knn from "/assets/KNN.png"
 import utils from "/assets/utils.png"
+import proximity from "/assets/proximity.png"
 
 function ProjectDisplay(){
     return(
         <div className="snap-y flex flex-auto items-center justify-center p-5">
            <div class="grid grid-cols-1 gap-4 p-5 md:grid-rows-auto md:max-w-7xl md:max-h-screen lg:grid-cols-2 lg:gap-10">
+
+           <div className="animate-smooth_top">
+                <img className="w-full h-auto rounded-xl border border-zinc-700 object-cover" src={proximity} alt="Proximity Image" />
+            </div>
+
+                <div className="bg-zinc-800 p-3 rounded-2xl flex flex-col relative animate-smooth_right2 border border-zinc-700">
+                    <h className="text-white font-semibold text-4xl p-2">Yu-Gi-Oh Proximity</h>
+                    <p className="text-slate-400 p-2 text-xl">
+                        A Yu-Gi-Oh card guessing game where you guess the hidden card based on how frequently your previous guesses have been
+                        played with the hidden card.
+                   </p>
+                    <div className="grid grid-cols-3 lg:grid-cols-6 grid-rows-auto max-h-full p-2">
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">Go</h>
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">Python</h>
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">HTML</h>
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">CSS</h>
+                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">Javascript</h>
+                    </div>
+                    <div className="grid grid-cols-2 grid-rows-auto p-1">
+                        <a href="https://github.com/snippy4/YGO-Proximity-Guesser">
+                            <img className="rounded-full hover:brightness-150 hover:drop-shadow-xl hover:scale-90 transition scale-75 max-h-60" src={github}></img>
+                        </a>
+                        <a href="https://ygoproximity.com/">
+                            <img className=" hover:brightness-150 hover:drop-shadow-xl hover:scale-90 transition scale-75" src={link}></img>
+                        </a>
+                    </div>
+                </div>
 
             <div className="animate-smooth_top">
                 <img className="w-full h-auto rounded-xl border border-zinc-700 object-cover" src={Wizard} alt="Wizard Image" />
@@ -84,38 +112,6 @@ function ProjectDisplay(){
                         
                     </div>
                 </div>
-
-
-                <div className="animate-smooth_left">
-                <img className="w-full h-auto rounded-xl border border-zinc-700 object-cover" src={portfolio_site}/>
-                </div>
-
-                <div className="bg-zinc-800 p-3 rounded-2xl flex flex-col relative animate-smooth_top border border-zinc-700">
-                    <h className="text-white font-semibold text-4xl p-2">Portfolio site</h>
-                    <p className="text-slate-400 p-2 text-xl">
-                        This is my portfolio website, the one you are viewing right now. I worked on this project to help me show off my work and what I am able to produce. It contains some interesting information about me and about what I have worked on.
-                    </p>
-                    <div className="grid grid-cols-4 lg:grid-cols-6 grid-rows-auto max-h-full p-2">
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">React</h>
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">HTML</h>
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">CSS</h>
-                        <h className="text-black border border-black bg-white rounded-xl p-1 font-semibold justify-center flex hover:scale-90 transition text-xs md:text-lg">Javascript</h>
-                    </div>
-                    <div className="grid grid-cols-2 grid-rows-auto max-h-full p-1">
-                        <a href="https://github.com/snippy4/Portfolio">
-                            <img className="rounded-full hover:brightness-150 hover:drop-shadow-xl hover:scale-90 transition scale-75" src={github}></img>
-                        </a>
-                        <a href="https://thomascparsons.tech">
-                            <img className=" hover:brightness-150 hover:drop-shadow-xl hover:scale-90 transition scale-75" src={link}></img>
-                        </a>
-                        
-                    </div>
-                </div>
-                    
-
-             
-
-                              
 
 
             </div>
