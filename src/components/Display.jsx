@@ -25,7 +25,7 @@ function Display(){
                     <h className="text-white font-semibold text-4xl p-2">My Introduction</h>
                     <p className="text-slate-400 p-2 text-xl">
                         Hi! I'm Thomas, a computer science student and developer. Welcome to my portfolio website where you can find a summary of what I do and what I have worked on. 
-                        I first started to learn programming in high school and have been hooked on computer sceince since. My main interests are in algorithms, HPC, and I enjoy working on games in my free time. 
+                        I first started to learn programming in high school and have been hooked on computer sceince since. My main interests are in Algorithms, High performance, and I enjoy working on games in my free time. 
                         I also enjoy playing TCGs as a hobby!
                     </p>
                 </div>
