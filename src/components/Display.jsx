@@ -24,7 +24,7 @@ function Display(){
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 flex flex-col relative lg:row-span-2 animate-smooth_left">
                     <h className="text-white font-semibold text-4xl p-2">My Introduction</h>
                     <p className="text-slate-400 p-2 text-xl">
-                        Hi! I'm Thomas, a computer science student and developer. Welcome to my portfolio website where you can find a summary of what I do and what I have worked on. 
+                        Hi! I'm Thomas, a computer science student and software engineer. Welcome to my portfolio website where you can find a summary of what I do and what I have worked on. 
                         I first started to learn programming in high school and have been hooked on computer sceince since. My main interests are in Algorithms, High performance, and I enjoy working on games in my free time. 
                         I also enjoy playing TCGs as a hobby!
                     </p>
@@ -34,7 +34,7 @@ function Display(){
                 </div>
 
                 <div className="bg-violet-300 p-3 rounded-2xl col-span-2 lg:col-span-1 flex flex-col relative lg:row-span-2 animate-smooth_left2">
-                    <h className="text-black font-semibold text-6xl p-2">Computer Science Student</h>
+                    <h className="text-black font-semibold text-6xl p-2">Software Engineer</h>
                 </div>
 
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-1 flex flex-col relative row-span-1 lg:row-span-3 animate-smooth_center">
