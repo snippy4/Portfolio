@@ -65,7 +65,7 @@ function Display(){
                 </div>
 
                 <div className="bg-violet-300 p-3 rounded-2xl col-span-2 lg:col-span-1 flex flex-col relative animate-smooth_right2">
-                    <h className="text-black font-semibold text-l p-2">"If you want to know why the tree is growing upside down, ask the computer scienctists who introduced the convention"</h>
+                    <h className="text-black font-semibold text-l p-2">"If you want to know why the tree is growing upside down, ask the computer scientists who introduced the convention"</h>
                 </div>
 
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 lg:row-span-2 flex flex-col relative animate-smooth_right">
