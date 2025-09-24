@@ -24,9 +24,8 @@ function Display(){
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 flex flex-col relative lg:row-span-2 animate-smooth_left">
                     <h className="text-white font-semibold text-4xl p-2">My Introduction</h>
                     <p className="text-slate-400 p-2 text-xl">
-                        Hi! I'm Thomas, a computer science student and software engineer. Welcome to my portfolio website where you can find a summary of what I do and what I have worked on. 
-                        I first started to learn programming in high school and have been hooked on computer sceince since. My main interests are in Algorithms, High performance, and I enjoy working on games in my free time. 
-                        I also enjoy playing TCGs as a hobby!
+                        I'm Thomas, a software engineer working at Amazon in ads. This is my personal site to show my personal projects and learn a bit more about me. I started programming when I was in high school and it has been a passion of mine since. 
+                        Outside of computer science my main interests are playing TCGs, video games, and spending time with family and friends.
                     </p>
                 </div>
                 <div className="lg:row-span-4 row-span-2 animate-smooth_top">
@@ -34,7 +33,7 @@ function Display(){
                 </div>
 
                 <div className="bg-violet-300 p-3 rounded-2xl col-span-2 lg:col-span-1 flex flex-col relative lg:row-span-2 animate-smooth_left2">
-                    <h className="text-black font-semibold text-6xl p-2">Software Engineer</h>
+                    <h className="text-black font-semibold text-6xl p-2">Software Engineer @ Amazon</h>
                 </div>
 
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-1 flex flex-col relative row-span-1 lg:row-span-3 animate-smooth_center">
@@ -55,12 +54,11 @@ function Display(){
 
                 <div className="bg-zinc-800 p-3 rounded-2xl col-span-2 lg:col-span-1 flex flex-col relative lg:row-span-3 animate-smooth_bottom">
                     <div>
-                        <h1 className="text-white font-semibold text-4xl p-2 flex flex-col">Education</h1>
+                        <h1 className="text-white font-semibold text-4xl p-2 flex flex-col">Experience and education</h1>
+                        <h className="text-white font-semibold text-xl p-2 flex flex-col">Experience</h>
+                        <p className="text-slate-400 text-l p-2 flex flex-col">Software Dev Engineer at Amazon - Aug 2025 to present</p>
                         <h className="text-white font-semibold text-xl p-2 flex flex-col">University</h>
-                        <p className="text-slate-400 text-l p-2 flex flex-col">I am currently studying a MEng in Computer Science at University of Liverpool. I am on my fourth year of study and set to graduate in 
-                            May 2025 with a 2:1 or higher.</p>
-                        <h className="text-white font-semibold text-xl p-2 flex flex-col">A levels</h>
-                        <p className="text-slate-400 text-l p-2 flex flex-col">Maths - A* <br/> Further Maths - A <br/> Computer Science - A <br/> Economics - B <br/></p>
+                        <p className="text-slate-400 text-l p-2 flex flex-col">First class MEng in computer science from the university of Liverpool</p>
                     </div>
                 </div>
 
@@ -89,8 +87,8 @@ function Display(){
                             <img className="p-2 group-hover/Cpp:scale-110 group-hover/Cpp:brightness-110 transition" src={Cpp}/>
                         </div>
                         <div className="group/c">
-                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/c:visible border rounded-xl bg-white transition scale-0 group-hover/c:scale-100">c</h>
-                            <img className="p-2 group-hover/c:scale-110 group-hover/c:brightness-110 transition" src={c}/>
+                            <h className="text-xs lg:text-lg text-black font-semibold flex justify-center invisible group-hover/c:visible border rounded-xl bg-white transition scale-0 group-hover/c:scale-100">javascript</h>
+                            <img className="p-2 group-hover/c:scale-110 group-hover/c:brightness-110 transition" src={javascript}/>
                         </div>    
                         <div className="group/react">
                             <h className="text-black text-xs lg:text-lg font-semibold flex justify-center invisible group-hover/react:visible border rounded-xl bg-white transition scale-0 group-hover/react:scale-100">React</h>
